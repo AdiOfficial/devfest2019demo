@@ -1,0 +1,10 @@
+micronaut:
+  application:
+    name: experiment
+  router:
+    versioning:
+      enabled: true
+      header:
+        enabled: true
+        names:
+          - 'X-API-VERSION'
